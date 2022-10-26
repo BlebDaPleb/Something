@@ -1,0 +1,96 @@
+name: MrIndiaCore
+author: BlebDaPleb
+version: 1.0
+api-version: 1.17
+main: com.blebdapleb.mrindia.MrIndia
+commands:
+  heal:
+    description: Heals any player
+    usage: /heal <Player>
+    permission: mrindia.heal
+  feed:
+    description: Feeds any player
+    usage: /feed <Player>
+    permission: mrindia.heal
+  fly:
+    description: Sets you in fly mode
+    usage: /fly
+    permission: mrindia.fly
+  gms:
+    description: Sets any player to survival
+    usage: /gms <Player>
+    permission: mrindia.gms
+  gmsp:
+    description: Sets any player to spectator
+    usage: /gmsp <Player>
+    permission: mrindia.gmsp
+  gmc:
+    description: Sets any player to creative
+    usage: /gmc <Player>
+    permission: mrindia.gmc
+  pay:
+    description: Pays any player a certaina amount of money
+    usage: /pay <Player> <Amount>
+  setmoney:
+    description: Sets any players balance
+    usage: /setmoney <Player> <Amount>
+    permission: mrindia.economy.setmoney
+  addmoney:
+    description: Adds money to any players balance
+    usage: /addmoney <Player> <Amount>
+    permission: mrindia.economy.addmoney
+  balance:
+    description: Check any players balance
+    usage: /balance <Player>
+  givekey:
+    description: Gives any key to any player
+    usage: /givekey <Player> <KeyType> <Amount>
+    permission: mrindia.keys.givekey
+  invsee:
+    description: Acess any players inventory
+    usage: /invsee <Player>
+    permission: mrindia.invsee
+  crates:
+    description: Open crates gui
+    usage : /<command>
+  god:
+    description: Gods any player
+    usage: /god <Player>
+    permission: mrindia.god
+  keys:
+    description: Shows your keys
+    usage: /keys
+permissions:
+  mrindia.heal:
+    default: op
+    description: Permission to allow a player to heal any player to the maximum hearts.
+  mrindia.feed:
+    default: op
+    description: Permission to allow a player to feed any player to the maximum hunger.
+  mrindia.fly:
+    default: op
+    description: Allows a player to toggle fly mode
+  mrindia.gms:
+    default: op
+    description: Allows a player to enter survival
+  mrindia.gmc:
+    default: op
+    description: Allows a player to enter creative
+  mrindia.gmsp:
+    default: op
+    description: Allows a player to enter spectator
+  mrindia.economy.setmoney:
+    default: op
+    description: Sets any players money
+  mrindia.economy.addmoney:
+    default: op
+    description: Adds money to any player
+  mrindia.keys.givekey:
+    default: op
+    description: Permission to give any key to any user
+  mrindia.invsee:
+    default: op
+    description: Permission to allow a player to access any players inventory
+  mrindia.god:
+    default: op
+    description: Gods u

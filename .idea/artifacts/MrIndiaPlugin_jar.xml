@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MrIndiaPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MrIndiaPlugin_jar</output-path>
+    <root id="archive" name="MrIndiaPlugin.jar">
+      <element id="module-output" name="MrIndiaPlugin" />
+    </root>
+  </artifact>
+</component>
